@@ -13,6 +13,8 @@ on:
       - ".github/**"
       - "*.md"
 
+  workflow_dispatch:
+
 jobs:
   ci:
     runs-on: ubuntu-latest
